@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pricing.css">
+    <script defer src="pricing.js"></script>
+    <title>Pricing Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Our Pricing Plans</h1>
+    </header>
+
+    <section class="pricing-options">
+        <label>
+            <input type="checkbox" id="toggleCurrency">
+            Show Prices in Local Currency
+        </label>
+        <label>
+            <input type="checkbox" id="toggleUnits">
+            Use Metric Units
+        </label>
+    </section>
+
+    <section class="pricing-plans">
+        <div class="plan">
+            <h2>Basic</h2>
+            <p class="price" data-local-currency="$19.99" data-original-currency="€19.99">$19.99/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="plan">
+            <h2>Standard</h2>
+            <p class="price" data-local-currency="$29.99" data-original-currency="€29.99">$29.99/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+
+        <div class="plan">
+            <h2>Premium</h2>
+            <p class="price" data-local-currency="$49.99" data-original-currency="€49.99">$49.99/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+            </ul>
+            <button>Select Plan</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

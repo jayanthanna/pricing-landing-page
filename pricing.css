@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+.plan {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.pricing-options {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.plan {
+    transition: transform 0.3s ease-in-out;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .plan {
+        width: 80%;
+        margin-bottom: 1em;
+    }
+}
